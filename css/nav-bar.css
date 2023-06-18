@@ -15,7 +15,7 @@ a {
 :root{
   --color-white: #F3F4F5;
   --color-dark1: #F3F4F5;
-  --color-dark2: #1A1E28;
+  --color-dark2: #161530;
   --color-dark3: #414141;
   --color-dark4: #1c1c1c;
   --color-dark5: #343434;
@@ -50,7 +50,7 @@ a {
   text-decoration: none;
   color: var(--color-purple);
   transition: 1s;
-  font-weight: 700;
+  font-weight: 800;
   font-family: 'Roboto';
   font-size: 16px;
 }
@@ -92,7 +92,7 @@ a {
  margin-top: 15px;
  font-weight: 600;
  font-family: 'Roboto';
- color: rgb(241, 239, 239);
+ color: white;
  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  font-size: 30px;
 }
