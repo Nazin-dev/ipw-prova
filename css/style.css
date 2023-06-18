@@ -1,0 +1,140 @@
+
+/* navbar */
+
+
+.nav-item, .logo {
+  margin-right: 60px;
+}
+
+#navbarNav {
+  display: flex;
+ justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+}
+
+/* paralax */
+
+.parallax{
+  width: 100%;
+  height: 600px;
+  background-image: url(/img/parallax2.jpg);
+  margin: 0px;
+  padding: 0px;
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: Verdana, Helvetica, Tahoma, sans-serif;
+  
+  position: relative;
+  font-weight: 900;
+
+}
+
+.parallax::after {
+  content: " ";
+  z-index: 0;
+  position: absolute;
+  margin-top: 300px;
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+.text {
+  z-index: 1;
+  width: 300px;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 460px;
+  color: white;
+}
+
+/* personagens */
+.blank{
+  width: 100%;
+  min-height: 40vh;
+}
+
+.section1, .section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.section1 img {
+  border-radius: 10px;
+  width: 300px;
+  height: 352px;
+}
+
+.section2 img {
+  border-radius: 10px;
+  width: 300px;
+  height: 352px;
+}
+
+.section1 .content, .section2 .content {
+  flex: 1;
+  padding: 20px;
+}
+
+.section1, .section2 {
+  margin-bottom: 40px;
+}
+
+.dados {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .section1 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pp {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 60px;
+}
+
+/* acordeon */
+#accordionFlushExample {
+  background-color: #f8f9fa;
+}
+
+.accordion {
+  --bs-accordion-bg: #f8f9fa;
+}
+
+.list-group a {
+  text-decoration: none;
+}
+
+/* carrosel estilização */
+.carousel-item {
+  height: 600px;
+}
