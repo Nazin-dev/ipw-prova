@@ -68,6 +68,30 @@ body {
   min-height: 40vh;
 }
 
+.box1, .box2, .box3, .box4 {
+  transition: 0.5s;
+}
+
+.box1:hover {
+  box-shadow: 5px 5px #1FC47A;
+  transition: 0.5s;
+}
+
+.box2:hover {
+  box-shadow: 5px 5px #FFB500;
+  transition: 0.5s;
+}
+
+.box3:hover {
+  box-shadow: 5px 5px #f200ff;
+  transition: 0.5s;
+}
+
+.box4:hover {
+  box-shadow: 5px 5px #8400ff;
+  transition: 0.5s;
+}
+
 .content h2 {
   color: #FFB500;
 }
